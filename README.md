@@ -1,2 +1,2 @@
-# lecturasIIC3633-2020
-Comentarios de Lectura del curso IIC3633 Sistemas Recomendadores
+# GastonGaete-IIC3633-2020
+Comentarios de lecturas y solución de prácticos del curso IIC3633 Sistemas Recomendadores
