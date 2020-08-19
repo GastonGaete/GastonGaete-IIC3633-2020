@@ -1,0 +1,15 @@
+# Comentario Lectura 1-1
+
+En resumen este texto nos explica de una manera muy buena y guiada desde la terminología básica de sistema recomendadores hasta el desarrollo y experimentos del mismo para un sistema item-item, dentro de todo es un texto que puede ser leido de manera introductoria, ya que guía al lector completamente durante el dsarrollo del mismo y se puede considerar que está hecho de forma tal que puede usar como una primera aproximación para la investigación en el área.
+
+El primer punto a destacar de las secciones principales del texto es el uso de un esquema de ventajas y desventajas. Lo que ayuda a contextualizar el marco de trabajo, aunque está desarrollado de forma básica y sería bueno que se presentara algún método más complejo junto a lo actual.
+
+También se destaca la clara definición de valores en los experimentos usados, ya que esto nos permite algo que es muy valorado en el mundo cientifico que es la oportunidad de replicación del experimento, lo que nos permite usar lo presentado como base de un trabajo futuro, ya sea como un punto de comparación para algo nuevo o una mejora del mismo, ya sea alterando parámtros o pasos del algoritmo presentado.
+
+Además la manera en que se aborda el tema nos ayuda a reconocer los diferentes pasos que usa el algoritmo, y se nos plantea varios métodos en cada paso, lo que abre al lector una puerta clara para tomar el tema con el objetivo de realizar investigación en el mismo, donde además encontramos en la sección de experimentos el análisis compartivo de los propuestos.
+
+Otro punto interesante que se nos propone es el análisis del algoritmo no solo en su  rendimiento de cómputo, también el rendimiento en tamaño de datos del algoritmo presentado, parámetro que en otra literatura del tema no se suele desarrollar y que nos aporta otro campo de trabajo posible para mejoras en el estado actual de los algoritmos del área de estudio.
+
+Dentro de la información ofrecida en el paper el uso de la terminología memory-based y model-based no me parece del todo bien justificada, ya que dentro de lo presentado el autor describe su trabajo como model-based pero ese tipo de recomendador no es tan orientado a modelo realmente y tiene una base similar al user-user que lo clasifica memory-based.
+
+En conclusión, el paper estudiado es muy recomendable como una introducción al tratado, ya que tiene un buen flujo de presenteación tanto para introducir y guiar por el tema al lector dentro del marco teórico, presentando los conceptos a utilizar durante el resto del paper al principio. Luego nos presenta de buena manera el trabajo practico realizado de manera detallada y clara respecto a lo realizado como experimentos y parámetros existentes en el algoritmo, además que separa el estudio de tal manera que nos declara muchos puntos donde el lector puede realizar futura investigación y mejoras.
