@@ -2,16 +2,16 @@
 
 ### Document Clustering Based On Non-negative Matrix Factorization
 
-- Resumen
+En el texto el autor nos expone un método basado en factorización de matrices usado para clustering de documentos, primero se nos expone una introducción junto con un estado del arte del área de estudio, luego se nos expone el modelo planteado y se analiza en conjunto a SVD desde el punto de vista más formal (matemática y lógica).  Luego, se realiza un análisis de rendimiento en un experimento practico realizado sobre 2 dataset, donde se muestra la dominancia del método propuesto, para finalmente concluir acerca del trabajo realizado.
 
-- Punto 1: Enfoque en dar significado al resultado
+Un punto muy interesante en el método es el enfoque que da el autor hacia la importancia de que los resultados obtenidos tengan un significado real donde enfatiza que es este un eje central de la proposición del método por sobre lo basado en SVD que nos da factores derivados de la mera matemática, lo anterior hace que esta lógica haga aparecer nuevos ámbitos de análisis para el trabajo realizado. Esto nos hace reflexionar si es que esta clase de consideraciones pueden aportar algo a los métodos actuales, que importancia puede tomar generar análisis en este aspecto, cómo considerar esto para nuestros propios trabajos, entre otras cosas.
 
-- Punto 2: Concepto de documento como suma de topicos
+Otro concepto interesante del método propuesto es la idea que se nos presenta sobre que el resultado determina una suma ponderada de tópicos que definen a un documento, este resultado es muy particular, ya que acerca el análisis hacia una forma de composición de los resultados más que un resultado individual que suele ser el caso de gran parte de los métodos, este carácter de los resultados abre las puertas para un nuevo nivel de análisis que permite una especie de sub clasificación, donde por ejemplo podríamos estudiar como varía la medición según se cambian partes del documento.
 
-- Punto 3: Buena base de comparación con trabajo previo
+Otro aspecto específico del texto que destaca es el acompañamiento de todo el trabajo del método propuesto junto con SVD, un método altamente reconocido en el área, esto permite que exista una base de comparación desde la cual el lector pueda observar de mejor manera lo propuesto, y permite enfocarse en las mejoras y cambios que verlo como algo desconocido, además de entregar una validación directa del trabajo hecho. Lo anterior hace que el trabajo tenga mucho más peso y sea más fácil de comprender.
 
-- Punto 4: separación de cluster por eje 
+Un punto muy peculiar del método presentado es que gracias al hecho de que se ajuste de tal forma que se logra que cada factor represente un tópico y además siempre se tenga un valor positivo como peso tiene como consecuencia que los resultados sean altamente representables e interpretables, donde tal como se nos muestra dentro de la lectura se puede generar un análisis espacial donde la clasificación mejora si tenemos nubes de puntos en la dirección que crece un eje, ya que esto significa una alta identificación de tópico principal de los documentos y alta separabilidad de los mismos. Poder lograr métodos que tengan este nivel es altamente útil para facilitar y ampliar los análisis generados sobre los trabajos, a diferencia de muchos otros donde los resultados que se presentan solo tienen un significado para el método matemático y carecen de interpretación.
 
-- Punto 5: Complejidad computacional
+Un punto muy valorado que es mencionado en el texto, a pesar de que no tiene mayor énfasis, que muchas veces se deja de lado en los trabajos realizados es darle un espacio a un estudio de la complejidad computacional del método que se propone, ya que a pesar de que gran parte de la relevancia esté en el método y sus resultados en este tipo de trabajos a la hora de que lo presentado sea algo útil y utilizado realmente en el campo puede depender en gran parte de tener claridad sobre este punto en lo que se presenta.
 
-- Cierre
+El trabajo presentado por el autor es de un gran nivel, estando bien presentado, conlleva un análisis tanto teórico como practico correspondiente, está bien llevado en las secciones, y además, más allá de mostrar una mejora en resultados nos trae un enfoque que aporta una lógica de interpretación a resultados derivados de métodos que no lo poseían lo que es una gran ganancia para el estudio de este tipo de trabajos.
